@@ -10,7 +10,7 @@ def long_planeteer_calls(calls)
  i = 0
  long_words = []
  while i < calls.length
-  long_words << yield(calls[i])
+   long_words << yield(calls[i])
  i += 1
  end
 end
